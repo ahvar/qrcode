@@ -1,0 +1,5 @@
+1.) What is gulp and how does it help the developer?
+
+2.) How is the function requestAnimationFrame() and improvement over functions like setInterval() or setTimeOut()?
+
+3.) What kinds of processes should be outsourced to web workers?
