@@ -28,6 +28,10 @@ var browserSync = require('browser-sync');
 var pagespeed = require('psi');
 var reload = browserSync.reload;
 
+gulp.task('default', function() {
+  console.log("it worked");
+});
+
 // Lint JavaScript
 gulp.task('jshint', function() {
   return gulp.src(['app/scripts/**/*.js', 'app/styleguide/**/*.js'])
